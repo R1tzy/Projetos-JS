@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans",sans-serif;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    color: #102a42;
+    display:block;
+}
+
+nav{
+    background:#FFFF;
+    height: 3rem;
+    display:grid;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+nav a{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 1rem;
+    color:#063251;
+    letter-spacing: 0.25rem;
+    margin-right: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+    text-transform: capitalize;
+    line-height: 1.25;
+    font-family: "Roboto", sans-serif;
+}
+
+h4{
+    display:block;
+    text-transform: capitalize;
+    letter-spacing: 0.25rem;
+    line-height: 1.25;
+    font-family: "Roboto", sans-serif;
+    /* margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px; */
+    align-items: center;
+    font-weight: bold;
+}
+
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:-webkit-any-link{
+    cursor:pointer;
+}
+
+main{
+    min-height: calc(100vh - 3rem);
+    display:grid;
+    place-items: center;
+}
+
+div{
+    display:block;
+}
+
+.nav-center{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 620px;
+    align-items: center;
+}
+
+.nav-center h4{
+    margin-bottom: 0;
+    color:#49a6e9;
+}
+
+.nav-links{
+    display:flex;
+}
+
+.container {
+    text-align: center;
+}
+
+.container h2{
+    background:#222;
+    color:#fff;
+    padding:1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.color{
+    color:#49a6e9
+}
+
+.btn-hero{
+    font-size: 1rem;
+    padding:0.75rem 1.25rem;
+}
+
+.btn{
+    font-family: "ROboto", sans-serif;
+    text-transform: uppercase;
+    background: transparent;
+    color:#222;
+    letter-spacing: 0.25rem;
+    display:inline-block;
+    font-weight: 700;
+    transition: all 0.3s linear;
+    border:2px solid #222;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    border-radius: 0.5rem; 
+}
